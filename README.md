@@ -33,7 +33,7 @@ lfsr = BasicLFSR()
 for _ in range(10):
     bit = lfsr.next_bit()
     print(f"Generated bit: {bit}, New state: {lfsr.get_state()}")
-
+```
 ## Installation
 bashgit clone https://github.com/your-username/lfsr.git
 cd lfsr
@@ -41,7 +41,9 @@ pip install -e .
 
 ## Testing
 Run the test suite:
-bashpython -m unittest discover tests
+```
+python -m unittest 
+```
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
